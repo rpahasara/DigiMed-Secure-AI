@@ -1,0 +1,59 @@
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.egg-info/
+.eggs/
+env/
+venv/
+.Python
+pip-log.txt
+*.log
+
+# === JUPYTER NOTEBOOKS ===
+.ipynb_checkpoints
+
+# === NODE ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# === REACT / FRONTEND ===
+build/
+dist/
+.cache/
+coverage/
+*.env
+.env.*
+
+# === TRUFFLE / ETHEREUM ===
+build/contracts/
+*.db
+*.sqlite
+*.pid
+
+# === OS / EDITOR SPECIFIC ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# === TEST OUTPUT / MISC ===
+test-output/
+*.log
+*.bak
+*.tmp
+*.orig
+*.rej
+
+# === BY FILE TYPE (if any) ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
